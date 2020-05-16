@@ -1,16 +1,32 @@
 {
-  "posts":[
-    {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
+  "users": [],
+  "disciplinas": [
     {
       "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "name": "Cadeira 1"
     }
-  ]
+  ],
+  "salas": [
+    {
+      "id": 0,
+      "name": "7",
+      "bloco": {
+        "id": 0,
+        "name": "B"
+      }
+    }
+  ],
+  "discentes": [
+    {
+      "id": 3,
+      "name": "Diego Rativa"
+    }
+  ],
+  "blocos": [
+    {
+      "id": 0,
+      "name": "B"
+    }
+  ],
+  "classes": []
 }
