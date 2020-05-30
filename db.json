@@ -1,4 +1,7 @@
 {
+  "auth": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyLCJST0xFUyI6WyJST0xFX0FMVU5PIiwiUk9MRV9BRE1JTiJdfQ.R5GtN4mJFXBOA7YSXDSuKGQlvVvq986DgmzocAem5Gc"
+  },
   "users": [],
   "disciplinas": [
     {
