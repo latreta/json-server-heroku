@@ -2,34 +2,55 @@
   "auth": {
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyLCJST0xFUyI6WyJST0xFX0FMVU5PIiwiUk9MRV9BRE1JTiJdfQ.R5GtN4mJFXBOA7YSXDSuKGQlvVvq986DgmzocAem5Gc"
   },
-  "users": [],
-  "disciplinas": [
-    {
-      "id": 0,
-      "name": "Cadeira 1"
-    }
-  ],
-  "salas": [
-    {
-      "id": 0,
-      "name": "7",
-      "bloco": {
-        "id": 0,
-        "name": "B"
+  "users": [
+      {
+          "id": 0,
+          "email": "admin@admin.com",
+          "password": "123"
       }
-    }
   ],
-  "discentes": [
+  "cars": [
     {
-      "id": 3,
-      "name": "Diego Rativa"
+        "id": 0,
+      "plate": "KKK-123",
+      "model": "Fiesta",
+      "car_year": "1994",
+      "brand": "Ford",
+      "color": "Prata",
+      "blocked": 0
     }
   ],
-  "blocos": [
-    {
-      "id": 0,
-      "name": "B"
-    }
+  "debts": [
+      {
+          "id": 0,
+          "debt_date": "22-07-2020",
+          "person_id": 0
+      }
   ],
-  "classes": []
+  "dependents": [
+      {
+          "id": 0,
+          "name": "Dependente1",
+          "cpf": "12222222222",
+          "birthDate": "01/01/1997",
+          "phone1": "81989899999",
+          "phone2": null,
+          "email": "dep@dep.com",
+          "person_id": 0
+      }
+  ],
+  "payments": [],
+  "persons": [
+      {
+          "id": 0,
+          "name": "Yves",
+          "cpf": "123.123.123-22",
+          "birthDate": "12/04/1994",
+          "phone1": "81997021193",
+          "phone2": null,
+          "email": "teste@teste.com",
+          "payday": "06",
+          "licensePrice": 120.22
+      }
+  ]
 }
